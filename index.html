@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ego Gift Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ego Gift Guessr</h1>
+    <div id="hints">
+        <div id="img-hint">
+            A blured grayscale image of the gift will be revealed in 10 guess(es)
+            <br>
+            <img src="" alt="" id="hint-img">
+        </div>
+    </div>
+    <div>
+        <input type="list" list="list" name="guess" id="guess" spellcheck="false" autocomplete="off">
+        
+    </div>
+    <datalist id="list" >
+
+    </datalist>
+    <div id="main-container">
+        <table id="guesses">
+            <tr>
+                <th>Name</th>
+                <th>Tier</th>
+                <th>Cost</th>
+                <th>Keyword</th>
+                <th>Fusion</th>
+                <th>Enhanceable</th>
+                <th>Pack</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="gift_data.js"></script>
+<script src="confettea-main/confettea.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datalist-css/dist/datalist-css.min.js"></script>
+<script src="script.js"></script>
+</html>

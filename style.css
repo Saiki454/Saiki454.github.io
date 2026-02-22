@@ -1,0 +1,154 @@
+@font-face {
+    font-family: mikodacs;
+    src: url('Mikodacs.ttf');
+}
+
+body {
+    margin: auto;
+    padding: 3em;
+    align-content: center;
+    font-family: sans-serif;
+    letter-spacing: 0.75px;
+
+    min-width: 30em;
+
+    background-image: url('imgs/bgs/Spiral_of_Contempt_BG.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: white;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 10;
+    text-shadow: 2px 2px 2px red; 
+    text-align: center;
+    font-family: mikodacs;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+#main-container {
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*margin-top: em;*/
+    padding-top: 1em;
+
+    border-radius: 10px;
+    
+    
+    max-width: 80em;
+    min-width: 40em;
+
+}
+
+img {
+    object-fit: scale-down; 
+    margin: auto;
+}
+
+.no-display {
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-style: none;
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 3px solid white;
+    line-height: initial;
+    background: linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+
+tr {
+    line-height: 2em;
+}
+
+td {
+    box-sizing: content-box;
+    border-top: 3px solid white;
+    background: rgba(20,20,20,0.9);
+    background-clip: border-box;
+    /*color: #ee9700;*/
+    font-size: 1.25em;
+    max-width: 50px;
+    height: 2em;
+    border-right: 3px solid rgba(10,10,10,0.4);
+    border-left: 3px solid rgba(10,10,10,0.4);
+    padding-left: 3px;
+    padding-right: 3px;
+    vertical-align: middle;
+    align-items: center;
+    /*max-width: 10em;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+datalist {
+    position: absolute;
+    max-height: 20em;
+    border: 0 none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1;
+    background: white;
+}
+
+datalist option {
+    font-size: 0.8em;
+    padding: 0.3em 1em;
+    background-color: #000;
+    cursor: pointer;
+    text-wrap: inherit;
+    margin-top: 3px;
+}
+
+/* option active styles */
+datalist option:hover, datalist option:focus {
+    background-color: #036;
+    outline: 0 none;
+}
+
+#gift-name {
+    font-family: mikodacs;
+    color:#eecea4;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px black; 
+    padding: 3px 10px; 
+    text-align: center;
+}
+
+#img-hint {
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#hint-img {
+    margin: 30px;
+
+    scale: 200%;
+    filter: blur(3px) grayscale(1);
+}
+
+#hints {
+    margin-bottom: 6px;
+}
+
+#tier {
+    font-weight: bolder;
+}
