@@ -140,9 +140,9 @@ datalist option:hover, datalist option:focus {
 
 #hint-img {
     margin: 30px;
-
     scale: 200%;
     filter: blur(3px) grayscale(1);
+    visibility: hidden;
 }
 
 #hints {

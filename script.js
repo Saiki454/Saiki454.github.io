@@ -50,6 +50,7 @@ if(today_guess == "Cultivation: Cut, File, Carve, Polish"){
     today_guess_img = "imgs/gifts/"+ today_guess.replaceAll(" ","_").toString() + "_Gift.png";
 }
 
+hint_img.src = today_guess_img;
 
 var guesses = 0;
 var guessed = false;
@@ -59,14 +60,14 @@ window.addEventListener('keydown',function(e){
     if(!guessed && guess.value !== "" && e.key == "Enter"){
         for(n in names){
             if (n == guess.value){
-                guesses++
+                guesses++;
                 img_hint.innerText = "A blured grayscale image of the gift will be revealed in "+Math.max(10-guesses,0)+" guess(es)"
                 if (guesses == 10 ){
-                    hint_img.src = today_guess_img
+                    hint_img.style.visibility = "visible";
                 }
                 if (n == today_guess){
                     guessed = true;
-                    var img = "imgs/gifts/" + n.replaceAll(" ","_").toString()+"_Gift.png";
+                    var img = "imgs/gifts/" + today_guess.replaceAll(" ","_").toString()+"_Gift.png";
                     confettea.burst({
                         particleCount: 100,
                         origin: { x: 0.5, y: 1.5 },
