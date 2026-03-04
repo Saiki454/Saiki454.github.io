@@ -1862,6 +1862,33 @@ const GiftData = [{
     sin_affinity: "lust",
     pack: "any"
 },{
+    gift_name: "For You Who Love the City",
+    tier: 4,
+    cost: 400,
+    keyword: "none",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "pride",
+    pack: "Vain Pride"
+},{
+    gift_name: "Meat Tenderizer",
+    tier: 1,
+    cost: 155,
+    keyword: "blunt",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "any"
+},{
+    gift_name: "Raincloud",
+    tier: 4,
+    cost: 404,
+    keyword: "sinking",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "Sinking Deluge"
+},{
     gift_name: "The Family's Resentment",
     tier: 4,
     cost: 201,
@@ -2123,6 +2150,15 @@ const GiftData = [{
     sin_affinity: "gluttony",
     pack: "any"
 },{
+    gift_name: "The End of all Evil",
+    tier: 4,
+    cost: 399,
+    keyword: "poise",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "pride",
+    pack: "The Evil Defining"
+},{
     gift_name: "Broken Violin",
     tier: 3,
     cost: 243,
@@ -2212,6 +2248,132 @@ const GiftData = [{
     is_enhance: true,
     sin_affinity: "envy",
     pack: "The Dream Ending"
+},{
+    gift_name: "Miniature Ferris Wheel",
+    tier: 4,
+    cost: 402,
+    keyword: "bleed",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "The Dream Ending"
+},{
+    gift_name: "Searing Hammer",
+    tier: 3,
+    cost: 248,
+    keyword: "tremor",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Textbook"
+},{
+    gift_name: "Red Necktie",
+    tier: 3,
+    cost: 250,
+    keyword: "burn",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "Textbook"
+},{
+    gift_name: "Uniform - Liu Assoc.",
+    tier: 4,
+    cost: 398,
+    keyword: "burn",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "Textbook"
+},{
+    gift_name: "Someone's Device",
+    tier: 3,
+    cost: 252,
+    keyword: "sinking",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "pride",
+    pack: "The Unsevering"
+},{
+    gift_name: "Providence of the Prescript",
+    tier: 3,
+    cost: 250,
+    keyword: "poise",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "The Unsevering"
+},{
+    gift_name: "Omni-tool",
+    tier: 3,
+    cost: 248,
+    keyword: "none",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "The Unsevering"
+},{
+    gift_name: "Stolen Fixer Magazine",
+    tier: 3,
+    cost: 241,
+    keyword: "blunt",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "Charm, Wander, Doubt"
+},{
+    gift_name: "Thermal Weapon",
+    tier: 3,
+    cost: 249,
+    keyword: "bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Charm, Wander, Doubt"
+},{
+    gift_name: "Pure-white Artwork",
+    tier: 2,
+    cost: 200,
+    keyword: "bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Blade and Artwork"
+},{
+    gift_name: "Average Artwork",
+    tier: 2,
+    cost: 200,
+    keyword: "bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Blade and Artwork"
+},{
+    gift_name: "Exquisite Artwork",
+    tier: 4,
+    cost: 404,
+    keyword: "bleed",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Blade and Artwork"
+},{
+    gift_name: "The Spider's Web",
+    tier: 1,
+    cost: 151,
+    keyword: "none",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "pride",
+    pack: "Blade and Artwork"
+},{
+    gift_name: "Someone's Azure Blade",
+    tier: 2,
+    cost: 199,
+    keyword: "poise",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "Blade and Artwork"
 },{
     gift_name: "Hot ‘n Juicy Drumstick",
     tier: 3,
