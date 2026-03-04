@@ -136,17 +136,20 @@ datalist option:hover, datalist option:focus {
     image-rendering: pixelated;
     font-size: 1.25em;
     font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
 }
 
 #hint-img {
-    margin: 30px;
-    scale: 200%;
+    scale: 0%;
     filter: blur(3px) grayscale(1);
     visibility: hidden;
 }
 
 #hints {
-    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #tier {

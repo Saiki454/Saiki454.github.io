@@ -2,7 +2,6 @@ const guess_table = document.getElementById('guesses');
 const guess_button = document.getElementById('button')
 const guess = document.getElementById('guess');
 const img_hint = document.getElementById('img-hint');
-const hint_img = document.getElementById('hint-img');
 const fields = ["gift_name","tier","cost","keyword","is_fusion","is_enhance","pack"]
 const sin_color = {"wrath":"#fe0000","lust":"#fb6500","sloth":"#f7c729","gluttony":"#9dfe00","gloom":"#0dc1eb","pride":"#0049d3","envy":"#9300db"}
 const names = {};
@@ -49,7 +48,7 @@ if(today_guess == "Cultivation: Cut, File, Carve, Polish"){
 }else{
     today_guess_img = "imgs/gifts/"+ today_guess.replaceAll(" ","_").toString() + "_Gift.png";
 }
-
+var hint_img = document.getElementById('hint-img');
 hint_img.src = today_guess_img;
 
 var guesses = 0;
@@ -61,8 +60,11 @@ window.addEventListener('keydown',function(e){
         for(n in names){
             if (n == guess.value){
                 guesses++;
-                img_hint.innerText = "A blured grayscale image of the gift will be revealed in "+Math.max(10-guesses,0)+" guess(es)"
-                if (guesses == 10 ){
+                img_hint.innerHTML = "A blured grayscale image of the gift will be revealed in "+Math.max(10-guesses,0)+" guess(es) <br> <img src="+today_guess_img+" id='hint-img'>"
+                if (guesses >= 10 ){
+                    console.log("bruh");
+                    var hint_img = document.getElementById('hint-img');
+                    hint_img.style.scale = "100%"
                     hint_img.style.visibility = "visible";
                 }
                 if (n == today_guess){
@@ -166,7 +168,7 @@ function add_guess(nafn){
             var img = document.createElement('img');
             if (GiftData[names[nafn]][field] != "None"){    
                 console.log("ppp")
-                div_.innerHTML = "<img src='imgs/other/"+GiftData[names[nafn]][field].toLowerCase()+".png'>"+GiftData[names[nafn]][field];
+                div_.innerHTML = "<img src='imgs/other/"+GiftData[names[nafn]][field].toLowerCase()+".png'>"+GiftData[names[nafn]][field].toLowerCase();
             }else{
                 div_.innerText = GiftData[names[nafn]][field];
             }
