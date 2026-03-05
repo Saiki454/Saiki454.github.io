@@ -1,10 +1,13 @@
 const guess_table = document.getElementById('guesses');
 const guess_button = document.getElementById('button')
 const guess = document.getElementById('guess');
+const root = document.body
 const img_hint = document.getElementById('img-hint');
 const fields = ["gift_name","tier","cost","keyword","is_fusion","is_enhance","pack"]
 const sin_color = {"wrath":"#fe0000","lust":"#fb6500","sloth":"#f7c729","gluttony":"#9dfe00","gloom":"#0dc1eb","pride":"#0049d3","envy":"#9300db"}
 const names = {};
+
+const origin_rect = root.getBoundingClientRect();
 
 var s = 0;
 for(g of GiftData){
@@ -68,16 +71,16 @@ window.addEventListener('keydown',function(e){
                     hint_img.style.visibility = "visible";
                 }
                 if (n == today_guess){
+                    var currect = root.getBoundingClientRect()
                     guessed = true;
                     var img = "imgs/gifts/" + today_guess.replaceAll(" ","_").toString()+"_Gift.png";
                     confettea.burst({
                         particleCount: 100,
-                        origin: { x: 0.5, y: 1.5 },
+                        origin: { x: 0.5, y: origin_rect.height/currect.height },
                         colors: [],
                         shapes: [],
                         emojis: [],
                         images: [img],
-                        scalar: -1
                     });
                 }
                 //s++
