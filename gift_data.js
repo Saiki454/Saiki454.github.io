@@ -3518,7 +3518,7 @@ const GiftData = [{
     sin_affinity: "gloom",
     pack: "The Dusk of Amber",
 },{
-    gift_name: "Beak-shaped Neaklace",
+    gift_name: "Beak-shaped Necklace",
     tier: 3,
     cost: 249,
     keyword: "bleed",
