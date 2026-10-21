@@ -171,7 +171,7 @@ function add_guess(nafn){
             var img = document.createElement('img');
             if (GiftData[names[nafn]][field] != "None"){    
                 console.log("ppp")
-                div_.innerHTML = "<img src='imgs/other/"+GiftData[names[nafn]][field].toLowerCase()+".png'>"+GiftData[names[nafn]][field].toLowerCase();
+                div_.innerHTML = "<img id='keyword' src='imgs/other/"+GiftData[names[nafn]][field].toLowerCase()+".png'>";//+GiftData[names[nafn]][field].toLowerCase();
             }else{
                 div_.innerText = GiftData[names[nafn]][field];
             }

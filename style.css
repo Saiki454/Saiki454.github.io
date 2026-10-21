@@ -51,7 +51,7 @@ h2 {
 }
 
 img {
-    object-fit: scale-down; 
+    object-fit: scale-down;
     margin: auto;
 }
 
@@ -154,4 +154,8 @@ datalist option:hover, datalist option:focus {
 
 #tier {
     font-weight: bolder;
+}
+
+#keyword {
+    scale: 1.75;
 }
