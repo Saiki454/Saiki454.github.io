@@ -1851,7 +1851,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "lust",
-    pack: "any"
+    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening\nWho Couldn't be Bloodfiends\nBlessed Carnival\nThe Master of La Manchaland"
 },{
     gift_name: "Sanguine Fragrance Descends",
     tier: 3,
@@ -2220,7 +2220,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "sloth",
-    pack: "The Dream Ending"
+    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
 },{
     gift_name: "Token of Victory",
     tier: 3,
@@ -2229,7 +2229,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "pride",
-    pack: "The Dream Ending"
+    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
 },{
     gift_name: "Devouring Cube",
     tier: 2,
@@ -2238,7 +2238,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "gluttony",
-    pack: "The Dream Ending"
+    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
 },{
     gift_name: "Mask of the Parade",
     tier: 4,
@@ -2247,7 +2247,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: true,
     sin_affinity: "envy",
-    pack: "The Dream Ending"
+    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
 },{
     gift_name: "Miniature Ferris Wheel",
     tier: 4,
@@ -2256,7 +2256,7 @@ const GiftData = [{
     is_fusion: true,
     is_enhance: false,
     sin_affinity: "lust",
-    pack: "The Dream Ending"
+    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
 },{
     gift_name: "Searing Hammer",
     tier: 3,
@@ -3228,7 +3228,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "lust",
-    pack: "The Dream Ending"
+    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
 },{
     gift_name: "Sorrowful Exhale",
     tier: 4,
@@ -3626,7 +3626,7 @@ const GiftData = [{
     sin_affinity: "gluttony",
     pack: "LCB Regular Check-Up BokGak"
 },{
-    gift_name: "Trial Extraction : AEDD",
+    gift_name: "Modified Extraction : AEDD",
     tier: 3,
     cost: 250,
     keyword: "Charge",
@@ -4012,5 +4012,14 @@ const GiftData = [{
     is_enhance: false,
     sin_affinity: "lust",
     pack: "Any Extreme"
+},{
+    gift_name: "Chance & Choice",
+    tier: 4,
+    cost: 396,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gluttony",
+    pack: "any"
 }
 ]
