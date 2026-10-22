@@ -3571,5 +3571,446 @@ const GiftData = [{
     is_enhance: false,
     sin_affinity: "pride",
     pack: "The Dusk of Amber",
+},{
+    gift_name: "Entangled Fate",
+    tier: 4,
+    cost: 396,
+    keyword: "None",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Unbound Wrath\nTangling Lust\nInert Sloth\nExcessive Gluttony\nSunk Gloom\nTyrannical Pride\nPitiful Envy"
+},{
+    gift_name: "Searing Brass",
+    tier: 4,
+    cost: 403,
+    keyword: "Burn",
+    is_fusion: false,
+    is_enhance: true,
+    sin_affinity: "sloth",
+    pack: "Unbound Wrath\nSeason of the Flame"
+},{
+    gift_name: "Royal Jelly Perfume",
+    tier: 3,
+    cost: 250,
+    keyword: "Burn",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "The Dusk of Amber"
+},{
+    gift_name: "Still-warm Coffee",
+    tier: 3,
+    cost: 150,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "pride",
+    pack: "The Dusk of Amber"
+},{
+    gift_name: "Trial Extraction : A.B.S",
+    tier: 3,
+    cost: 246,
+    keyword: "Burn",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "LCB Regular Check-Up BokGak"
+},{
+    gift_name: "Trial Extraction : Lantern",
+    tier: 3,
+    cost: 248,
+    keyword: "Rupture",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gluttony",
+    pack: "LCB Regular Check-Up BokGak"
+},{
+    gift_name: "Trial Extraction : AEDD",
+    tier: 3,
+    cost: 250,
+    keyword: "Charge",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "LCB Regular Check-Up BokGak"
+},{
+    gift_name: "Someone's Dropped Employee Card",
+    tier: 4,
+    cost: 392,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "LCB Regular Check-Up BokGak"
+},{
+    gift_name: "Bongy Plush",
+    tier: 4,
+    cost: 600,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "The B.E."
+},{
+    gift_name: "Unoccupied Birdcage",
+    tier: 2,
+    cost: 198,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "Twining Threads"
+},{
+    gift_name: "Universal Skeleton",
+    tier: 2,
+    cost: 200,
+    keyword: "Bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Twining Threads"
+},{
+    gift_name: "Universal Instinct",
+    tier: 2,
+    cost: 200,
+    keyword: "Bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Twining Threads"
+},{
+    gift_name: "Artwork: Ferity",
+    tier: 3,
+    cost: 246,
+    keyword: "Sinking",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "Twining Threads"
+},{
+    gift_name: "Artwork: Pulsation",
+    tier: 3,
+    cost: 246,
+    keyword: "Charge",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "Twining Threads"
+},{
+    gift_name: "The Middle Styled Knuckle-dusters",
+    tier: 3,
+    cost: 243,
+    keyword: "Blunt",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "sloth",
+    pack: "Twining Threads"
+},{
+    gift_name: "Artwork: Evolving Pulsation",
+    tier: 4,
+    cost: 402,
+    keyword: "Bleed",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Twining Threads"
+},{
+    gift_name: "Artwork: Taxidermied Ferity",
+    tier: 4,
+    cost: 402,
+    keyword: "Bleed",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Twining Threads"
+},{
+    gift_name: "Boombox of Dramatic Entrances",
+    tier: 2,
+    cost: 204,
+    keyword: "Blunt",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "Nocturnal Sweeping BokGak"
+},{
+    gift_name: "ENTER: The B.B.",
+    tier: 4,
+    cost: 397,
+    keyword: "Blunt",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "Nocturnal Sweeping BokGak"
+},{
+    gift_name: "Heishou Bolus - Mao",
+    tier: 2,
+    cost: 201,
+    keyword: "Rupture",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gluttony",
+    pack: "Nocturnal Sweeping BokGak"
+},{
+    gift_name: "Shadowlurking",
+    tier: 4,
+    cost: 404,
+    keyword: "Rupture",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "glutotny",
+    pack: "Nocturnal Sweeping BokGak"
+},{
+    gift_name: "Spiderweb Entangled in Red",
+    tier: 3,
+    cost: 250,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "Charm, Wander, Doubt\nTextbook\nBlade and Artwork\nThe Unsevering"
+},{
+    gift_name: "Ohra Bond",
+    tier: 3,
+    cost: 247,
+    keyword: "Poise",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "pride",
+    pack: "Mnestic Experience"
+},{
+    gift_name: "N Corp. Service des Clous Briefcase",
+    tier: 2,
+    cost: 199,
+    keyword: "Bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Mnestic Experience"
+},{
+    gift_name: "Baekja Water Dropper",
+    tier: 3,
+    cost: 251,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "glutotny",
+    pack: "Mnestic Experience"
+},{
+    gift_name: "Flagroot Cane Sword",
+    tier: 2,
+    cost: 201,
+    keyword: "Slash",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "Mnestic Experience"
+},{
+    gift_name: "Crushed Wooden Manacle",
+    tier: 2,
+    cost: 202,
+    keyword: "Slash",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "Mnestic Experience"
+},{
+    gift_name: "Unadorned Sword-guard",
+    tier: 1,
+    cost: 146,
+    keyword: "Slash",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "sloth",
+    pack: "Mnestic Experience"
+},{
+    gift_name: "The Book of the Homeland Swordplay [本國劍譜]",
+    tier: 4,
+    cost: 381,
+    keyword: "Slash",
+    is_fusion: true,
+    is_enhance: false,
+    sin_affinity: "pride",
+    pack: "Mnestic Experience"
+},{
+    gift_name: "Wing-shaped Waxen Candle",
+    tier: 3,
+    cost: 250,
+    keyword: "Burn",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "Unbound Wrath\nSeason of the Flame"
+},{
+    gift_name: "Tributary Cigar",
+    tier: 4,
+    cost: 390,
+    keyword: "Tremor",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "sloth",
+    pack: "Textbook"
+},{
+    gift_name: "Out-of-style Rouge Clothing",
+    tier: 3,
+    cost: 258,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "Readvent of Glory"
+},{
+    gift_name: "Soda Pop",
+    tier: 2,
+    cost: 201,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "sloth",
+    pack: "Readvent of Glory"
+},{
+    gift_name: "Maison du Noir Slacks",
+    tier: 3,
+    cost: 258,
+    keyword: "Tremor",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "Creed of Preservation"
+},{
+    gift_name: "Le Noir Mary Janes",
+    tier: 3,
+    cost: 254,
+    keyword: "Charge",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "sloth",
+    pack: "Creed of Preservation"
+},{
+    gift_name: "Straight Pin of the King of Needleworks",
+    tier: 3,
+    cost: 249,
+    keyword: "Charge",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "An Anarchy of Colors"
+},{
+    gift_name: "Cartilage",
+    tier: 3,
+    cost: 256,
+    keyword: "Charge",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "An Anarchy of Colors"
+},{
+    gift_name: "Blanket",
+    tier: 2,
+    cost: 199,
+    keyword: "Charge",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "sloth",
+    pack: "Storefront Campout"
+},{
+    gift_name: "Blossom Scissors",
+    tier: 2,
+    cost: 204,
+    keyword: "Charge",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "Storefront Campout"
+},{
+    gift_name: "Mid-range K Corp. Ampule",
+    tier: 4,
+    cost: 400,
+    keyword: "None",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gluttony",
+    pack: "Code Purple"
+},{
+    gift_name: "Burning Fate",
+    tier: 4,
+    cost: 400,
+    keyword: "Burn",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "wrath",
+    pack: "Bearers of Weight"
+},{
+    gift_name: "Nail and Hammer",
+    tier: 4,
+    cost: 400,
+    keyword: "Bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Line 1: MADNESS"
+},{
+    gift_name: "Carousel Figurine",
+    tier: 4,
+    cost: 400,
+    keyword: "Bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Blessed Carnival"
+},{
+    gift_name: "Another Round!",
+    tier: 4,
+    cost: 400,
+    keyword: "Tremor",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "sloth",
+    pack: "Fairy Tale"
+},{
+    gift_name: "Clappity Clap!",
+    tier: 4,
+    cost: 400,
+    keyword: "Tremor",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "Bloodtinged Ichthyic Odor"
+},{
+    gift_name: "Imperfect Eye of Precognition",
+    tier: 4,
+    cost: 400,
+    keyword: "Tremor",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Any Extreme"
+},{
+    gift_name: "The Abandoned Oracle",
+    tier: 4,
+    cost: 400,
+    keyword: "Sinking",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "gloom",
+    pack: "Any Extreme"
+},{
+    gift_name: "The Book of Vengeance: Annex",
+    tier: 4,
+    cost: 400,
+    keyword: "Blunt",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "envy",
+    pack: "Any Extreme"
+},{
+    gift_name: "A Maestro's Ring-Turned-Artwork",
+    tier: 4,
+    cost: 400,
+    keyword: "Bleed",
+    is_fusion: false,
+    is_enhance: false,
+    sin_affinity: "lust",
+    pack: "Any Extreme"
 }
 ]

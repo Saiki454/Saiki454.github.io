@@ -115,6 +115,26 @@ function add_guess(nafn){
                 img.src = "imgs/gifts/Pocket_Watch_-_Type_E_Gift.png"
             }else if(nafn == "Pocket Watch : Type P"){
                 img.src = "imgs/gifts/Pocket_Watch_-_Type_P_Gift.png"
+            }else if(nafn == "The Book of Vengeance: Annex"){
+                img.src = "imgs/gifts/The_Book_of_Vengeance_-_Annex_Gift.png"
+            }else if(nafn == "The Book of the Homeland Swordplay [本國劍譜]"){
+                img.src = "imgs/gifts/The_Book_of_the_Homeland_Swordplay_-本國劍譜-_Gift.png"
+            }else if (nafn == "Trial Extraction : A.B.S"){
+                img.src = "imgs/gifts/Trial_Extraction_A.B.S_Gift.png"
+            }else if (nafn == "Trial Extraction : Lantern"){
+                img.src = "imgs/gifts/Trial_Extraction_Lantern_Gift.png"
+            }else if (nafn == "Modified Extraction : AEDD"){
+                img.src = "imgs/gifts/Modified_Extraction_AEDD_Gift.png"
+            }else if (nafn == "Artwork: Ferity"){
+                img.src = "imgs/gifts/Artwork-_Ferity_Gift.png"
+            }else if (nafn == "Artwork: Pulsation"){
+                img.src = "imgs/gifts/Artwork-_Pulsation_Gift.png"
+            }else if (nafn == "Artwork: Taxidermied Ferity"){
+                img.src = "imgs/gifts/Artwork-_Taxidermied_Ferity_Gift.png"
+            }else if (nafn == "Artwork: Evolving Pulsation"){
+                img.src = "imgs/gifts/Artwork-_Evolving_Pulsation_Gift.png"
+            }else if (nafn == "ENTER: The B.B."){
+                img.src = "imgs/gifts/ENTER_The_B.B._Gift.png"
             }else{
                 img.src = "imgs/gifts/"+ nafn.replaceAll(" ","_").toString() + "_Gift.png";
             }
