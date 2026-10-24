@@ -48,6 +48,26 @@ if(today_guess == "Cultivation: Cut, File, Carve, Polish"){
     today_guess_img = "imgs/gifts/Pocket_Watch_-_Type_E_Gift.png"
 }else if(today_guess == "Pocket Watch : Type P"){
     today_guess_img = "imgs/gifts/Pocket_Watch_-_Type_P_Gift.png"
+}else if(today_guess == "The Book of Vengeance: Annex"){
+    today_guess_img = "imgs/gifts/The_Book_of_Vengeance_-_Annex_Gift.png"
+}else if(today_guess == "The Book of the Homeland Swordplay [本國劍譜]"){
+    today_guess_img = "imgs/gifts/The_Book_of_the_Homeland_Swordplay_-本國劍譜-_Gift.png"
+}else if (today_guess == "Trial Extraction : A.B.S"){
+    today_guess_img = "imgs/gifts/Trial_Extraction_A.B.S_Gift.png"
+}else if (today_guess == "Trial Extraction : Lantern"){
+    today_guess_img = "imgs/gifts/Trial_Extraction_Lantern_Gift.png"
+}else if (today_guess == "Modified Extraction : AEDD"){
+    today_guess_img = "imgs/gifts/Modified_Extraction_AEDD_Gift.png"
+}else if (today_guess == "Artwork: Ferity"){
+    today_guess_img = "imgs/gifts/Artwork-_Ferity_Gift.png"
+}else if (today_guess == "Artwork: Pulsation"){
+    today_guess_img = "imgs/gifts/Artwork-_Pulsation_Gift.png"
+}else if (today_guess == "Artwork: Taxidermied Ferity"){
+    today_guess_img = "imgs/gifts/Artwork-_Taxidermied_Ferity_Gift.png"
+}else if (today_guess == "Artwork: Evolving Pulsation"){
+    today_guess_img = "imgs/gifts/Artwork-_Evolving_Pulsation_Gift.png"
+}else if (today_guess == "ENTER: The B.B."){
+    today_guess_img = "imgs/gifts/ENTER_The_B.B._Gift.png"
 }else{
     today_guess_img = "imgs/gifts/"+ today_guess.replaceAll(" ","_").toString() + "_Gift.png";
 }
@@ -234,6 +254,8 @@ function add_guess(nafn){
             div_.id = "pack";
             if (!hints[5]){
                 td.style.background = "rgba(223,5,89,1)";
+            }else if (typeof GiftData[names[nafn]].pack == "object"){
+                td.style.background = "rgb(228, 198, 0)"
             }else{
                 td.style.background = "rgba(0,154,85,1)";
             }
@@ -255,7 +277,20 @@ function compare_guess(nafn){
     var k = (GiftData[names[nafn]].keyword == GiftData[names[today_guess]].keyword);
     var f = (GiftData[names[nafn]].is_fusion == GiftData[names[today_guess]].is_fusion);
     var e = (GiftData[names[nafn]].is_enhance == GiftData[names[today_guess]].is_enhance);
-    var p = (GiftData[names[nafn]].pack == GiftData[names[today_guess]].pack);
+    if (typeof GiftData[names[nafn]].pack == "object"){
+        var p = false
+        for(i = 0; i <= GiftData[names[today_guess]].pack.length; i++){
+            for(j = 0; j <= GiftData[names[nafn]].pack.length; j++){
+                if (GiftData[names[nafn]].pack[j] == GiftData[names[today_guess]].pack[i]){
+                    p = true
+                    break
+                }
+            }
+        }
+    }else{
+        var p = (GiftData[names[nafn]].pack == GiftData[names[today_guess]].pack);
+    }
+    console.log(p)
 
     return [t,c,k,f,e,p];
 }

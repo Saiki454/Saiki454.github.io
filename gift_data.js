@@ -1851,7 +1851,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "lust",
-    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening\nWho Couldn't be Bloodfiends\nBlessed Carnival\nThe Master of La Manchaland"
+    pack: ["The Dream Ending","The Infinite Procession","La Manchaland Re-opening","Who Couldn't be Bloodfiends","Blessed Carnival","The Master of La Manchaland"]
 },{
     gift_name: "Sanguine Fragrance Descends",
     tier: 3,
@@ -2220,7 +2220,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "sloth",
-    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
+    pack: ["The Dream Ending","The Infinite Procession","La Manchaland Re-opening"]
 },{
     gift_name: "Token of Victory",
     tier: 3,
@@ -2229,7 +2229,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "pride",
-    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
+    pack: ["The Dream Ending","The Infinite Procession","La Manchaland Re-opening"]
 },{
     gift_name: "Devouring Cube",
     tier: 2,
@@ -2238,7 +2238,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "gluttony",
-    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
+    pack: ["The Dream Ending","The Infinite Procession","La Manchaland Re-opening"]
 },{
     gift_name: "Mask of the Parade",
     tier: 4,
@@ -2247,7 +2247,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: true,
     sin_affinity: "envy",
-    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
+    pack: ["The Dream Ending","The Infinite Procession","La Manchaland Re-opening"]
 },{
     gift_name: "Miniature Ferris Wheel",
     tier: 4,
@@ -2256,7 +2256,7 @@ const GiftData = [{
     is_fusion: true,
     is_enhance: false,
     sin_affinity: "lust",
-    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
+    pack: ["The Dream Ending","The Infinite Procession","La Manchaland Re-opening"]
 },{
     gift_name: "Searing Hammer",
     tier: 3,
@@ -3228,7 +3228,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "lust",
-    pack: "The Dream Ending\nThe Infinite Procession\nLa Manchaland Re-opening"
+    pack: ["The Dream Ending","The Infinite Procession","La Manchaland Re-opening"]
 },{
     gift_name: "Sorrowful Exhale",
     tier: 4,
@@ -3579,7 +3579,7 @@ const GiftData = [{
     is_fusion: true,
     is_enhance: false,
     sin_affinity: "lust",
-    pack: "Unbound Wrath\nTangling Lust\nInert Sloth\nExcessive Gluttony\nSunk Gloom\nTyrannical Pride\nPitiful Envy"
+    pack: ["Unbound Wrath","Tangling Lust","Inert Sloth","Excessive Gluttony","Sunk Gloom","Tyrannical Pride","Pitiful Envy"]
 },{
     gift_name: "Searing Brass",
     tier: 4,
@@ -3588,7 +3588,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: true,
     sin_affinity: "sloth",
-    pack: "Unbound Wrath\nSeason of the Flame"
+    pack: ["Unbound Wrath","Season of the Flame"]
 },{
     gift_name: "Royal Jelly Perfume",
     tier: 3,
@@ -3768,7 +3768,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "wrath",
-    pack: "Charm, Wander, Doubt\nTextbook\nBlade and Artwork\nThe Unsevering"
+    pack: ["Charm, Wander, Doubt","Textbook","Blade and Artwork","The Unsevering"]
 },{
     gift_name: "Ohra Bond",
     tier: 3,
@@ -3840,7 +3840,7 @@ const GiftData = [{
     is_fusion: false,
     is_enhance: false,
     sin_affinity: "wrath",
-    pack: "Unbound Wrath\nSeason of the Flame"
+    pack: ["Unbound Wrath","Season of the Flame"]
 },{
     gift_name: "Tributary Cigar",
     tier: 4,
